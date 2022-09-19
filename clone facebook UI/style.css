@@ -1,0 +1,125 @@
+.fc-white{
+    color: #f0f2f5;
+}
+.bg-gray{
+    background-color: #e9ecef !important ;
+}
+
+.bg-blue{
+    background-color: #f0f2f5 !important; 
+ } 
+.bg-blue2{
+    background-color: #e7ebf0 !important; 
+ } 
+.bold{
+    font-weight: 600;
+ }
+ .fs-0{
+    font-size: 4rem;
+ }
+
+ .fs-7{
+    font-size: .8rem;
+ }
+
+ .btn-green{
+    background-color: #42b72a !important;
+    color: #f0f2f5 !important;
+ }
+/* nav button */
+.nav__btn button:hover {
+    background: #f0f2f5 !important;
+}
+.nav__btn button:hover i {
+    color: #0d6efd !important;
+}
+.nav__btn-active i{
+    color: #0d6efd !important;
+}
+.nav__btn-active{
+    position: relative;
+}
+.mt-n1 {
+    margin-top: -0.25rem !important;
+  }
+.nav__btn-active::before{
+    content: '';
+    position: absolute;
+    bottom: -4.5px;
+    left: 0;
+    transform: translateY(4.5px);
+    width: 100%;
+    height: 3px;
+    border-bottom: 3px solid #0d6efd !important;
+}
+#sugest::before{
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    transform: translateY(4.5px);
+    width: 50%;
+    height: 3px;
+    border-bottom: 3px solid #0d6efd !important;
+}
+.edit-button{
+    opacity: 0;
+}
+.edit-button:hover{
+    opacity: 1;
+}
+.edit-heading:hover .edit-button{
+    opacity: 1;
+}
+.scrollbar:hover{
+    overflow: auto !important;
+}
+.dropdown-item:active{
+    background-color: #d5d5d5 !important;
+}
+
+/* Stories */
+
+
+.story2{
+    overflow: hidden;
+}
+.story2:hover{
+    filter:brightness(80%);
+    height: 220px;
+}
+.storyimg{
+    transition: 0.5s;
+}
+.storyimg:hover{
+    transform:scale(1.03);
+}
+/* comment */
+.post__comment .accordion-button::after{
+    margin-left: 0 !important;
+    display: none !important;
+}
+.post__comment .accordion-button:hover{
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.post__comment .accordion-button:not(.collapsed){
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+@media (min-width: 403px){
+    #form{
+        width: 100%;
+        margin: auto;
+    }
+
+ }
+@media (min-width: 992px){
+    footer{
+        position:relative;
+        bottom: 0px;
+        width: 100%;
+        padding-bottom: 0px;
+    }
+ }
